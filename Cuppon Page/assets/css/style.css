@@ -1,0 +1,88 @@
+.container-fluid{
+    background-color: darkolivegreen;
+    padding: 2vh;
+}
+
+*{
+    font-family: roboto;
+}
+
+#nav{
+    padding: 0;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+
+.content {
+    padding: 5vh;
+}
+
+.card-text{
+    font-weight: lighter;
+}
+
+header img{
+    width: 20vh;
+    height: 5vh;
+}
+
+.card-img-top {
+    width: 30vh;
+    height: 40vh;
+}
+
+@media (min-width:0px) and (max-width: 768px) {
+    
+    .card-img-top{
+        width: 10vh;
+        height: 35vh;
+    }
+}
+
+.text-muted{
+    text-decoration: line-through;
+}
+
+.price{
+    color: limegreen;
+}
+
+.input{
+    background-color: darkolivegreen;
+    padding: 3vh;
+}
+
+.mb-3{
+    padding: 0 4vh 0 4vh;
+}
+
+#btn-enviar{
+    font-family: roboto;
+    width: 15vh;
+    font-size: 2vh;
+}
+
+.input-title{
+    font-family: roboto;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.container-footer{
+    padding: 2.8vh;
+}
+
+.img-footer{
+    width: 13vh;
+    height: 5vh;
+}
+
+#copyright{
+    text-align: center;
+    font-family: roboto;
+    font-size: 2.1vh;
+    padding: 0;
+    font-weight: lighter;
+}
